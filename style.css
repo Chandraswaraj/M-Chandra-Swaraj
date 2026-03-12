@@ -108,6 +108,7 @@ h1{
     display: flex;
     justify-content: center;
     letter-spacing: 2px;
+    padding-top: 20px;
 }
 .skill{
     width: 100%;
@@ -441,4 +442,5 @@ h1{
 
 
 }
+
 
