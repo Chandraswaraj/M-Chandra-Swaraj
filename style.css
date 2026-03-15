@@ -1,3 +1,4 @@
+
 body{
     background-color: #222831;
     padding: 0;
@@ -108,7 +109,6 @@ h1{
     display: flex;
     justify-content: center;
     letter-spacing: 2px;
-    padding-top: 20px;
 }
 .skill{
     width: 100%;
@@ -279,170 +279,168 @@ h1{
     transition: all 0.3s ease;
 }
 @media screen and (max-width: 768px) {
-    html, body {
-    overflow-x: hidden;
-    max-width: 100%; 
-    }
     .container{
-        padding: 0px;
-        margin: 0px;
-        height: auto;
-        width: 100%;
+        padding: 10px;
+        margin: 10px;
+        height: 30vh;
     }
     #hero > .container{
-        height:380px;
-        padding-bottom: 20px;
-        padding-left: 5px;
+        height: 45vh;
     }
     .hero{
-        width: 400px;
-        height: 380px;
-        margin: 0;
-        left: 5px;
-        top: 30px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position: relative;
+        justify-content: left;
+        top: 0px;
     }
     h1{
-        z-index: 2;
-        font-size: 70px;
+        font-size: 10vh;
+        letter-spacing: 4px;
         top: 20px;
         left: 20px;
-        letter-spacing: 10px;
     }
     .h1bg{
-        height: 42px;
-        width: 230px;
-        padding: 0;
-        margin: 0;
+        height: 5vh;
+        width: 70%;
+        position: absolute;
+        top: 15%;
         left: 10px;
-        top: -10px;
-        z-index: 1;
+    }
+    .int{
+        height: auto;
+        width: 70%;
+        position: absolute;
+        top: 25%;
     }
     .prog{
-        font-size: 20px;
-        top: 1px;
+        font-size: 2vh;
+        top: 10px;
         left: 20px;
     }
     .h3bg{
-        top: -10px;
-        height: 10px;
+        height: 1.1vh;
+        width: 80%;
+        position: absolute;
+        top: 30%;
         left: 10px;
-        width: 300px;
     }
     .aboutme{
-        height: 250px;
-        width: 200px;
+        position: absolute;
+        height: auto;
+        width: 50%;
+        top: 45%;
     }
     .metext{
-        font-size: 20px;
+        font-size: 2.5vh;
+        top: -4vh;
         left: 20px;
-        height: 250px;
-        width: 200px;
-        z-index: 2;
-        top: 10px;
     }
     .profile{
-        height: 200px;
-        width: 200px;
-        top: -200px;
-        left: 210px;
-        z-index: 2; 
+        position: relative;
+        left: 55%;
+        top: -27vh;
+        height: 25vh;
+        width: 25vh;
     }
     .profile-pic{
-        height: 200px;
-        width: 200px;
+        height: 25vh;
+        width: 25vh;
+    }
+    #skills > .container{
+        height: auto;
+    }
+    .skill{
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    .myskills{
+        font-size: 1.5rem;
+        padding: 0;
+        margin: 0;
     }
     .skillcol{
         flex-direction: column;
         align-items: center;
     }
-    .myskills{
-        font-size: 30px;
-    }
-    #skills > .container{
-        margin: 0px;
-
-    }
     .sb{
-        width: 300px;
+        width: 30vh;
         height: auto;
-        margin-bottom: 20px ;
+        margin-bottom: 20px;
     }
     .sh{
-        font-size: 30px;
+        font-size: 1.5rem;
     }
     .sp{
-        font-size: 16px;
-        width: 250px;
-        left: 25px;
+        font-size: 2vh;
+        width: 90%;
+        left: 5%;
+        display: flex;
+        justify-self: center;
     }
     .si{
-        height: 250px;
-        width: 250px;
+        width: 25vh;
+        height: 25vh;
         object-fit: cover;
     }
     .ph{
-        font-size: 30px;
-        padding-bottom: 10px;
+        font-size: 1.5rem;
+        padding: 0;
+        margin-bottom: 20px;
+        margin-top: 0px;
     }
     .plistb{
-        width: 400px;
+        width: 80vw;
         height: auto;
-        margin-bottom: 30px;
-    }
-    .pname{
-        font-size: 30px;
-        justify-content: center;
-        padding: 0px;
+        padding: 20px;
+        display: flex;
+        justify-self: center;
     }
     .plist{
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 10px;
         padding: 0;
     }
-    #contact-container{
-        height: 400px;
-        padding: 0px;
+    .pname{
+        font-size: 1.5rem;
     }
-    .fp{
-        font-size: 30px;
-        height: 100px;
-        width: 300px;
-        text-align: left;
+    #projects > .container{
+        height: auto;
     }
     .fgreet{
-        font-size: 60px;
-        padding:0;
-        margin-bottom: 20px;
+        font-size: 3rem;
+        padding: 20px;
+        width: auto;
+        margin: 0;
+    }
+    #contact-container{
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    height: 50vh;
+    }
+    .fp{
+        font-size: 30px ;
+    }
+    .contact{
+        scale: 70%;
+    }
+    #footer-container{
+        height: 15vh;
+        width: auto;
     }
     .flist{
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
         gap: 10px;
-        padding: 0;
+        align-items: center;
     }
     .copyright{
-        font-size: 10px;
-        justify-content: center;
+        font-size: 0.5rem;
+        position: relative;
         left: 0;
-        align-items: center;
-
     }
-    .listcont{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .flink{
-        font-size: 16px;
-    }
-    #footer-container{
-        margin-top: 20PX;
-    }
-
-
 }
-
-
-
