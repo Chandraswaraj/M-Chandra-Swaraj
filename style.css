@@ -332,13 +332,14 @@ h1{
     }
     .aboutme{
         position: absolute;
-        height: auto;
+        background-color: aqua;
+        height: 25vh;
         width: 50%;
-        top: 45%;
+        top: 40%;
     }
     .metext{
-        font-size: 2.5vh;
-        top: -4vh;
+        font-size: 2.2vh;
+        top: 0;
         left: 20px;
     }
     .profile{
