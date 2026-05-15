@@ -1,6 +1,6 @@
 # Hi, I'm Chandra Swaraj 👋
 
-Frontend web developer passionate about building responsive and user-friendly websites.
+web developer passionate about building responsive and user-friendly websites.
 
 ## Skills
 - HTML5
@@ -17,10 +17,9 @@ Frontend web developer passionate about building responsive and user-friendly we
 - Generative AI Workflows
 
 ## Projects
-- Responsive Electronics Repair Website
-- Personal Portfolio Website
-- JavaScript To-Do App
+- Responsive Electronics Repair Website - https://chandraswaraj.github.io/FIXTECH-electronics-repair/
+- Personal Portfolio Website - https://github.com/Chandraswaraj/M-Chandra-Swaraj
 
 ## Connect With Me
-- LinkedIn: your-linkedin-link
-- Portfolio: your-portfolio-link
+- LinkedIn: [your-linkedin-link](https://www.linkedin.com/in/m-chandra-swaraj-532a79339)
+
